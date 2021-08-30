@@ -28,7 +28,7 @@ const App = () => {
       { initialState.categories.map(category => (
         initialState.videos[category].length > 0 && (
 
-          <Categories title={category}>
+          <Categories title={category} key={initialState.categories.indexOf(category)}>
             <Carousel>
               {initialState.videos[category].map(item => (
                 <CarouselItem key={item.id} {...item}>
