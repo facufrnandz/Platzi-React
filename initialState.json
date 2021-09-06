@@ -1,7 +1,7 @@
 {
   "initialState": {
-    "Mi Lista": [],
-    "Tendencias": [
+    "myList": [],
+    "trends": [
       {
         "id": 2,
         "slug": "tvshow-2",
@@ -81,7 +81,7 @@
         "source": "https://mdstrm.com/video/58333e214ad055d208427db5.mp4"
       }
     ],
-    "Originales de Platzi Video": [
+    "originals": [
       {
         "id": 8,
         "slug": "tvshow-8",
